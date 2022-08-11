@@ -4,6 +4,7 @@
   "description": "Flowbite support for WindiCSS",
   "main": "src/index.js",
   "license": "Apache 2.0",
+  "keywords": ["flowbite, windics, windi"],
   "type": "module",
   "repository": {
     "type": "git",
