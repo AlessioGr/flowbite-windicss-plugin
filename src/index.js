@@ -8,7 +8,7 @@ import colors from "windicss/colors";
 const [baseFontSize, { lineHeight: baseLineHeight }] = defaultTheme.fontSize.base
 const { spacing, borderWidth, borderRadius } = defaultTheme
 
-export const flowbite = plugin(function ({ addBase, theme }) {
+export default plugin(function ({ addBase, theme }) {
     addBase({
         [[
             "[type='text']",
